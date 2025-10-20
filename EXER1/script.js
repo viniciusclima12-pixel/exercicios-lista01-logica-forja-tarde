@@ -3,8 +3,9 @@ function escreva(){
 
     console.log(typeof nome)
 
-    var a = document.getElementById("printNome")
+    var printNome = document.getElementById("printNome")
 
-    a.textContent = nome
-    a.style.color = "white"
+    printNome.textContent = nome
+    printNome.style.color = "white"
+
 }
