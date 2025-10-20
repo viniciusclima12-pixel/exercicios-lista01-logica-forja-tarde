@@ -10,10 +10,13 @@ function media() {
 
   if(totalMEDIA >=7){
     media.textContent = totalMEDIA.toFixed(2) + " - " + "PASSOU DE ANO"
+    media.style.color = "green"
     
  
   }else{
     media.textContent = totalMEDIA.toFixed(2) + " - " + "REPROVOU DE ANO"
+    media.style.color = "red"
   }
+
 
 }
